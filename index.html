@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+<body>
+    <form method="post" action="index.php" enctype="multipart/form-data">
+        <label for="name">Employee Name</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="phno">Employee Contact</label>
+        <input type="tel" id="phno" name="phno" required><br>
+        
+        <label for="address">Employee Address</label>
+        <input type="text" id="address" name="address" required><br>
+        
+        <label for="designation">Employee Designation</label>
+        <input type="text" id="designation" name="designation" required><br>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required><br>
+        
+        <label for="empimg">Employee Image</label>
+        <input type="file" id="empimg" name="empimg" accept="image/*" required><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    <a href="index.php">login</a>
+</body>
+</html>
